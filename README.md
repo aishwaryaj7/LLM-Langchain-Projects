@@ -4,7 +4,7 @@ Welcome to **LLM-Langchain-Projects**! This repository hosts two distinct projec
 
 ## Projects Overview
 
-### 1. Blog Generation using Llama 2
+### 1. Generating blog content using Llama 2
 
 This project enables automatic blog content creation based on user-specified topics and word counts. It is an excellent tool for content creators looking to generate initial drafts or gather ideas swiftly.
 
@@ -17,15 +17,19 @@ This project enables automatic blog content creation based on user-specified top
 - Llama 2 LLM
 
 #### Setup and Usage
-To set up and run the Blog Generation project:
+To set up and run the project:
 
 ##### Clone the repository and navigate to the project directory
+```bash
 git clone <repository-url>
 cd LLM-Langchain-Projects/Blog generation using Llama 2
-
+```
 ##### Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ##### Run the Streamlit application
+```bash
 streamlit run app.py
+```
 
