@@ -28,10 +28,14 @@ def getLLamaresponse(input_text, no_words, blog_style):
     return response
 
 
+
+
 st.set_page_config(page_title="Generate Blogs",
                    page_icon='🤖',
                    layout='centered',
-                   initial_sidebar_state='collapsed')
+                   initial_sidebar_state='collapsed'
+                   )
+
 
 st.header("Generate your Blogs 🤖")
 
