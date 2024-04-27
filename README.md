@@ -32,4 +32,56 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+# Querying PDF using Langchain and AstraDB
 
+This application allows users to dynamically query any PDF document by asking relevant questions. Powered by an OpenAI LLM, this project utilizes advanced natural language processing to extract and summarize information from your PDF documents effectively.
+
+## Features
+
+- **Interactive PDF Querying:** Users can ask questions directly about the content of PDF documents and receive accurate answers.
+- **Advanced Language Understanding:** Leverages the capabilities of OpenAI's LLM to understand and process complex queries.
+
+## Getting Started
+
+These instructions will guide you through setting up the project on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Ensure you have the following installed:
+- Python 3.x
+- Jupyter Notebook
+
+### Installation
+
+To set up this project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd LLM-Langchain-Projects/Querying PDF using langchain and AstraDB
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+Here is how you can start using this project:
+1. Open Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+2. Navigate to the project's directory and open the provided Jupyter notebook file.
+3. Execute the notebook cells sequentially to interact with the PDF querying functionalities.
+
+## Built With
+- Jupyter Notebook - An open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text.
+- OpenAI LLM - Utilizes machine learning models for natural language understanding.
+- AstraDB - Used for scalable data storage and retrieval (depending on project configuration).
+  
+## Contributing
+Contributions are what make the open-source community such a fantastic place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+### Fork the Project
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
