@@ -19,14 +19,14 @@ This project enables automatic blog content creation based on user-specified top
 #### Setup and Usage
 To set up and run the Blog Generation project:
 ```bash
-# Clone the repository and navigate to the project directory
+##### Clone the repository and navigate to the project directory
 git clone <repository-url>
 cd LLM-Langchain-Projects/Blog generation using Llama 2
 
-# Install dependencies
+##### Install dependencies
 pip install -r requirements.txt
 
-# Run the Streamlit application
+##### Run the Streamlit application
 streamlit run app.py
 
 # Querying PDF using Langchain and AstraDB
