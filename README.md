@@ -55,22 +55,22 @@ Ensure you have the following installed:
 
 To set up this project, follow these steps:
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone <repository-url>
    cd LLM-Langchain-Projects/Querying PDF using langchain and AstraDB
    ```
-2. Install the required dependencies:
+Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 Here is how you can start using this project:
-1. Open Jupyter Notebook:
+Open Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
-2. Navigate to the project's directory and open the provided Jupyter notebook file.
-3. Execute the notebook cells sequentially to interact with the PDF querying functionalities.
+Navigate to the project's directory and open the provided Jupyter notebook file.
+Execute the notebook cells sequentially to interact with the PDF querying functionalities.
 
 ## Built With
 - Jupyter Notebook - An open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text.
